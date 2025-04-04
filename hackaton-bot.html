@@ -3,64 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hackaton Bot</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Hackaton Bot - Simplon</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
 
   <body>
     <header>
-      <div>
-        <nav class="navbar">
-          <a href="qdqzdqzdqz">Simplon</a>
-          <ul>
-            <li><a href="fqqfqf">Fonctionnalités</a></li>
-            <li><a href="ffqf">qdqjdiqdjpiqzdpijd</a></li>
-            <li><a href="qdqzdqzd">qdqzdqzdqzdqzd</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="navbar">
+        <a href="/" class="logo">
+          <img src="assets/images/logo.png" alt="Simplon Logo" class="logo-img">
+        </a>
+        <ul>
+          <li><a href="#features"><i class="fas fa-cogs"></i> Fonctionnalités</a></li>
+          <li><a href="#cards"><i class="fas fa-users"></i> Alumni</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
     </header>
+
     <section>
       <div class="button">
-        <button>dqdqzd</button>
+        <button><i class="fas fa-robot"></i> Découvrir le Bot</button>
       </div>
-      <div class="img">
-        <img src="qdqzdqzdqz" alt="qdqdqzdqzdqzd" />
-      </div>
+
       <div class="text-hero">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-          excepturi possimus minima placeat, et quidem tenetur dolorem voluptate
-          iste sed iure voluptates, vel porro nulla. Quasi sapiente hic sed
-          necessitatibus.
+          Simplon Bot révolutionne le mentorat en connectant automatiquement mentors et mentorés 
+          selon leurs compétences et objectifs. Une solution intelligente pour un accompagnement 
+          personnalisé et efficace.
         </p>
       </div>
     </section>
+
     <section id="features">
       <div class="feature-container">
         <h1>Fonctionnalités</h1>
         <div class="card-feature">
-          <img src="test" alt="feature" />
-          <h4>Matching intélligent</h4>
+          <i class="fas fa-handshake fa-3x"></i>
+          <h4>Matching intelligent</h4>
           <p>
             Le bot analyse les candidatures pour mettre en relation les mentorés
             et les mentors en fonction de leurs compétences, cursus et
-            objectifs. Un match se fait automatiquement dès qu’un taux de
+            objectifs. Un match se fait automatiquement dès qu'un taux de
             compatibilité est atteint.
           </p>
         </div>
         <div class="card-feature">
-          <img src="test" alt="feature" />
+          <i class="fas fa-robot fa-3x"></i>
           <h4>Mise en relation automatisée</h4>
           <p>
-            Lorsqu’un match est validé, le bot envoie un message privé aux deux
+            Lorsqu'un match est validé, le bot envoie un message privé aux deux
             utilisateurs avec un récapitulatif du profil, les souhaits du
-            mentoré et un message de bienvenue. Plus besoin de gestion manuelle
-            !
+            mentoré et un message de bienvenue. Plus besoin de gestion manuelle !
           </p>
         </div>
         <div class="card-feature">
-          <img src="test" alt="feature" />
+          <i class="fas fa-calendar-check fa-3x"></i>
           <h4>Planification & suivi des sessions</h4>
           <p>
             Les utilisateurs peuvent planifier leurs sessions directement via le
@@ -70,50 +72,61 @@
         </div>
       </div>
     </section>
+
     <section id="cards">
-      <h1>Profils mentors</h1>
+      <h1>Nos Alumni Mentors</h1>
       <div class="cards">
-        <img src="qdqd" alt="qdzdqd" />
-        <h4>Lucas</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est,
-          consectetur dolorem expedita, fugit possimus eve
-        </p>
-      </div>
-      <div class="cards">
-        <img src="qdqd" alt="qdzdqd" />
-        <h4>Constant</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est,
-          consectetur dolorem expedita, fugit possimus eve
-        </p>
-      </div>
-      <div class="cards">
-        <img src="qdqd" alt="qdzdqd" />
-        <h4>Sofiane</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est,
-          consectetur dolorem expedita, fugit possimus eve
-        </p>
+        <div>
+          <div class="mentor-info">
+            <h4>Sarah <span class="badge">Alumni 2023</span></h4>
+            <p class="specialty">
+              <i class="fab fa-js"></i> JavaScript Fullstack
+            </p>
+            <p>
+              Ancienne étudiante Simplon, passionnée par le développement web.
+              Spécialisée en React et Node.js, elle aime partager son expérience
+              avec les nouvelles promotions.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="mentor-info">
+            <h4>Thomas <span class="badge">Alumni 2022</span></h4>
+            <p class="specialty">
+              <i class="fab fa-microsoft"></i> Backend .NET
+            </p>
+            <p>
+              Diplômé de la formation Simplon, expert en développement backend.
+              Il accompagne les étudiants dans leur apprentissage de C# et .NET,
+              avec une approche pratique et concrète.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="mentor-info">
+            <h4>Amine <span class="badge">Alumni 2023</span></h4>
+            <p class="specialty">
+              <i class="fas fa-shield-alt"></i> Cybersécurité
+            </p>
+            <p>
+              Ancien étudiant Simplon, spécialisé en sécurité informatique.
+              Il guide les apprenants dans les bonnes pratiques de sécurité
+              et les sensibilise aux enjeux de la protection des données.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
-    <hr />
-    <footer>
+
+    <footer id="contact">
       <div class="contacts">
         <span id="copyright">
-          2025
-          <a href="qdzdqd">Simplon</a>
+          2024 © <a href="/">Simplon</a>
         </span>
         <ul>
-          <li>
-            <a href="dqddqzd">A propos</a>
-          </li>
-          <li>
-            <a href="dqdqd">Politique de confidentialité</a>
-          </li>
-          <li>
-            <a href="dqdqzd">Support</a>
-          </li>
+          <li><a href="#"><i class="fas fa-info-circle"></i> À propos</a></li>
+          <li><a href="#"><i class="fas fa-lock"></i> Politique de confidentialité</a></li>
+          <li><a href="#"><i class="fas fa-question-circle"></i> Support</a></li>
         </ul>
       </div>
     </footer>
